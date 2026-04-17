@@ -15,6 +15,8 @@
   --sn-border: #E5E5E5;
   --sn-card: #FFFFFF;
   --sn-section-alt: #F3F3F3;
+  --sn-bg-contrast-black: #00000012;
+  --sn-bg-contrast-white: #ffffff0c;
   --radius: 6px;
 }
 
@@ -217,6 +219,7 @@ img {
   color: #fff;
   padding: 2rem;
   max-width: 700px;
+  background: var(--sn-bg-contrast-black);
 }
 .sn-hero h1 {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
@@ -360,7 +363,9 @@ img {
 /* ---- SPA sections ---- */
 .sn-section { display: none; }
 .sn-section.active { display: block; }
-
+.clss-contrast-light{
+  background: var(--sn-bg-contrast-white);
+}
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
   .sn-hero { min-height: 70vh; }
