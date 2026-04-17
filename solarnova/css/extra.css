@@ -1,0 +1,150 @@
+/* =============================================
+   SolarNova — Estilos adicionales
+   Secciones: Sobre nosotros, Misión/Visión, Valores,
+   Beneficios y CTA. Se cargan junto a styles.css.
+   ============================================= */
+
+/* ---- Sobre la empresa ---- */
+.sn-about {
+  padding: 80px 16px;
+}
+.sn-about .lead-text {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--sn-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* ---- Misión y Visión (cards lado a lado) ---- */
+.sn-mv {
+  background: var(--sn-section-alt);
+  padding: 80px 16px;
+}
+.sn-mv-card {
+  background: var(--sn-card);
+  border: 1px solid var(--sn-border);
+  border-radius: 12px;
+  padding: 36px 28px;
+  height: 100%;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.sn-mv-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.06);
+}
+.sn-mv-card .tag {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--sn-primary);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.sn-mv-card h3 { font-size: 1.5rem; margin-bottom: 12px; }
+.sn-mv-card p  { color: var(--sn-muted); line-height: 1.7; margin: 0; }
+
+/* ---- Valores ---- */
+.sn-values { padding: 80px 16px; }
+.sn-value-card {
+  text-align: center;
+  padding: 28px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--sn-border);
+  background: var(--sn-card);
+  height: 100%;
+}
+.sn-value-card .dot {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+  background: var(--sn-primary);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+}
+.sn-value-card h4 { font-size: 1.05rem; margin-bottom: 6px; }
+.sn-value-card p  { font-size: .9rem; color: var(--sn-muted); margin: 0; }
+
+/* ---- Hero simple (servicios / blog) ---- */
+.sn-hero-simple {
+  background: var(--sn-section-alt);
+  padding: 90px 16px 70px;
+  text-align: center;
+}
+.sn-hero-simple h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 12px; }
+.sn-hero-simple p  { color: var(--sn-muted); max-width: 600px; margin: 0 auto; }
+
+/* ---- Beneficios ---- */
+.sn-benefits {
+  background: var(--sn-section-alt);
+  padding: 80px 16px;
+}
+.sn-benefit {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 18px;
+  background: var(--sn-card);
+  border: 1px solid var(--sn-border);
+  border-radius: 10px;
+  height: 100%;
+}
+.sn-benefit .check {
+  flex: 0 0 28px;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--sn-green);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+}
+.sn-benefit h4 { font-size: 1rem; margin: 0 0 4px; }
+.sn-benefit p  { margin: 0; color: var(--sn-muted); font-size: .9rem; }
+
+/* ---- CTA banner ---- */
+.sn-cta-band {
+  background: var(--sn-primary);
+  color: #fff;
+  padding: 60px 16px;
+  text-align: center;
+}
+.sn-cta-band h2 { color: #fff; margin-bottom: 10px; }
+.sn-cta-band p  { color: rgba(255,255,255,.85); margin-bottom: 22px; }
+
+/* ---- Lista beneficios dentro de card de servicio ---- */
+.sn-card .benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+}
+.sn-card .benefits-list li {
+  font-size: .85rem;
+  color: var(--sn-muted);
+  padding-left: 18px;
+  position: relative;
+  margin-bottom: 4px;
+}
+.sn-card .benefits-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--sn-green);
+  font-weight: 700;
+}
+
+/* ---- Featured educational block ---- */
+.sn-featured {
+  padding: 80px 16px;
+}
+.sn-featured-box {
+  background: var(--sn-card);
+  border-left: 4px solid var(--sn-secondary);
+  padding: 32px 28px;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,.04);
+}
+.sn-featured-box h3 { margin-bottom: 12px; }
+.sn-featured-box p  { color: var(--sn-muted); line-height: 1.7; margin: 0; }
