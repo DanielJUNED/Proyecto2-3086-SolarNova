@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SolarNova — Energía Solar en Costa Rica</title>
-  <meta name="description" content="SolarNova: venta e instalación de paneles solares en Costa Rica. Energía limpia, ahorro real, compromiso con el planeta.">
+  <meta name="description"
+    content="SolarNova: venta e instalación de paneles solares en Costa Rica. Energía limpia, ahorro real, compromiso con el planeta.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/extra.css">
 </head>
+
 <body>
   <a href="#main-content" class="skip-link">Ir al contenido principal</a>
 
   <!-- ==================== NAVBAR (compartido) ==================== -->
   <header role="banner" class="sn-navbar">
-    <nav role="navigation" aria-label="Navegación principal" class="container d-flex align-items-center justify-content-between h-100">
+    <nav role="navigation" aria-label="Navegación principal"
+      class="container d-flex align-items-center justify-content-between h-100">
       <a href="index.html" class="d-flex align-items-center gap-2 text-decoration-none" aria-label="SolarNova - Inicio">
-        <img src="images/logo-solarnova.png" alt="Logotipo de SolarNova" class="sn-logo" width="36" height="36">
+        <img src="images/logo-solarnova.webp" alt="Logotipo de SolarNova" class="sn-logo" width="36" height="36">
         <span class="sn-brand hide-mobile">SolarNova</span>
       </a>
-      <button class="btn hide-desktop p-2" id="mobile-toggle" onclick="toggleMobile()" aria-expanded="false" aria-label="Abrir menú">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      <button class="btn hide-desktop p-2" id="mobile-toggle" onclick="toggleMobile()" aria-expanded="false"
+        aria-label="Abrir menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
       </button>
       <ul class="nav hide-mobile gap-1">
-        <li><a class="nav-link" data-page="index.html"     href="index.html">Inicio</a></li>
+        <li><a class="nav-link" data-page="index.html" href="index.html">Inicio</a></li>
         <li><a class="nav-link" data-page="servicios.html" href="servicios.html">Servicios</a></li>
-        <li><a class="nav-link" data-page="blog.html"      href="blog.html">Blog</a></li>
-        <li><a class="nav-link" data-page="contacto.html"  href="contacto.html">Contacto</a></li>
+        <li><a class="nav-link" data-page="blog.html" href="blog.html">Blog</a></li>
+        <li><a class="nav-link" data-page="contacto.html" href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
     <div class="hide-desktop d-none" id="mobile-menu">
       <ul class="list-unstyled p-3 mb-0">
-        <li><a class="nav-link d-block mb-1" data-page="index.html"     href="index.html">Inicio</a></li>
+        <li><a class="nav-link d-block mb-1" data-page="index.html" href="index.html">Inicio</a></li>
         <li><a class="nav-link d-block mb-1" data-page="servicios.html" href="servicios.html">Servicios</a></li>
-        <li><a class="nav-link d-block mb-1" data-page="blog.html"      href="blog.html">Blog</a></li>
-        <li><a class="nav-link d-block"      data-page="contacto.html"  href="contacto.html">Contacto</a></li>
+        <li><a class="nav-link d-block mb-1" data-page="blog.html" href="blog.html">Blog</a></li>
+        <li><a class="nav-link d-block" data-page="contacto.html" href="contacto.html">Contacto</a></li>
       </ul>
     </div>
   </header>
@@ -45,11 +53,14 @@
 
     <!-- ========== HERO ========== -->
     <section class="sn-hero" aria-labelledby="hero-heading">
-      <img src="images/hero-solar.jpg" alt="Paneles solares en techo residencial rodeado de vegetación tropical en Costa Rica" class="hero-bg" width="1920" height="1080">
+      <img src="images/hero-solar.jpg"
+        alt="Paneles solares en techo residencial rodeado de vegetación tropical en Costa Rica" class="hero-bg"
+        width="1920" height="1080">
       <div class="overlay"></div>
       <div class="hero-content">
         <h1 id="hero-heading">Energía solar<br>para tu hogar</h1>
-        <p class="hero-subtitle">Instalación profesional de paneles solares en Costa Rica. Ahorrá hasta un 90% en tu factura eléctrica.</p>
+        <p class="hero-subtitle">Instalación profesional de paneles solares en Costa Rica. Ahorrá hasta un 90% en tu
+          factura eléctrica.</p>
         <a href="contacto.html" class="btn-sn-secondary text-decoration-none">Cotizar ahora</a>
       </div>
     </section>
@@ -101,20 +112,32 @@
         <p class="text-center text-sn-muted mb-5">Los principios que guían cada proyecto</p>
         <div class="row g-3">
           <div class="col-6 col-md-3">
-            <div class="sn-value-card"><div class="dot" aria-hidden="true">S</div>
-              <h4>Sostenibilidad</h4><p>Decisiones que cuidan el planeta hoy y mañana.</p></div>
+            <div class="sn-value-card">
+              <div class="dot" aria-hidden="true">S</div>
+              <h3 class="h5">Sostenibilidad</h3>
+              <p>Decisiones que cuidan el planeta hoy y mañana.</p>
+            </div>
           </div>
           <div class="col-6 col-md-3">
-            <div class="sn-value-card"><div class="dot" aria-hidden="true">I</div>
-              <h4>Innovación</h4><p>Tecnología de vanguardia adaptada al trópico.</p></div>
+            <div class="sn-value-card">
+              <div class="dot" aria-hidden="true">I</div>
+              <h3 class="h5">Innovación</h3>
+              <p>Tecnología de vanguardia adaptada al trópico.</p>
+            </div>
           </div>
           <div class="col-6 col-md-3">
-            <div class="sn-value-card"><div class="dot" aria-hidden="true">C</div>
-              <h4>Compromiso</h4><p>Acompañamiento real durante toda la vida del sistema.</p></div>
+            <div class="sn-value-card">
+              <div class="dot" aria-hidden="true">C</div>
+              <h3 class="h5">Compromiso</h3>
+              <p>Acompañamiento real durante toda la vida del sistema.</p>
+            </div>
           </div>
           <div class="col-6 col-md-3">
-            <div class="sn-value-card"><div class="dot" aria-hidden="true">T</div>
-              <h4>Transparencia</h4><p>Cotizaciones claras, sin letras pequeñas.</p></div>
+            <div class="sn-value-card">
+              <div class="dot" aria-hidden="true">T</div>
+              <h3 class="h5">Transparencia</h3>
+              <p>Cotizaciones claras, sin letras pequeñas.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -128,7 +151,9 @@
         <div class="row g-4">
           <div class="col-md-4">
             <article class="sn-card h-100">
-              <div style="overflow:hidden"><img src="images/service-residential.jpg" alt="Instalación residencial de paneles solares" class="card-img" loading="lazy" width="800" height="600"></div>
+              <div style="overflow:hidden"><img src="images/service-residential.jpg"
+                  alt="Instalación residencial de paneles solares" class="card-img" loading="lazy" width="800"
+                  height="600"></div>
               <div class="card-body">
                 <h3 class="h5 mb-2">Instalación residencial</h3>
                 <p class="text-sn-muted small mb-3">Sistemas a medida para tu hogar con trámites incluidos.</p>
@@ -138,7 +163,9 @@
           </div>
           <div class="col-md-4">
             <article class="sn-card h-100">
-              <div style="overflow:hidden"><img src="images/service-maintenance.jpg" alt="Técnico realizando mantenimiento de paneles" class="card-img" loading="lazy" width="800" height="600"></div>
+              <div style="overflow:hidden"><img src="images/service-maintenance.jpg"
+                  alt="Técnico realizando mantenimiento de paneles" class="card-img" loading="lazy" width="800"
+                  height="600"></div>
               <div class="card-body">
                 <h3 class="h5 mb-2">Mantenimiento</h3>
                 <p class="text-sn-muted small mb-3">Monitoreo 24/7 y revisiones preventivas.</p>
@@ -148,7 +175,8 @@
           </div>
           <div class="col-md-4">
             <article class="sn-card h-100">
-              <div style="overflow:hidden"><img src="images/service-consulting.jpg" alt="Asesoría energética profesional" class="card-img" loading="lazy" width="800" height="600"></div>
+              <div style="overflow:hidden"><img src="images/service-consulting.jpg"
+                  alt="Asesoría energética profesional" class="card-img" loading="lazy" width="800" height="600"></div>
               <div class="card-body">
                 <h3 class="h5 mb-2">Asesoría energética</h3>
                 <p class="text-sn-muted small mb-3">Estudios de viabilidad y análisis financiero.</p>
@@ -169,12 +197,13 @@
   </main>
 
   <!-- ==================== FOOTER ==================== -->
-    <!-- Footer compartido -->
+  <!-- Footer compartido -->
   <footer class="sn-footer" role="contentinfo">
     <div class="container py-4">
       <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 small text-sn-muted">
         <p class="mb-0">© <span id="year"></span> <strong>SolarNova</strong> · Energía solar en Costa Rica</p>
-        <button onclick="openPrivacyModal()" class="btn btn-link p-0 small text-decoration-underline clss-contrast-light">Política de Privacidad</button>
+        <button onclick="openPrivacyModal()"
+          class="btn btn-link p-0 small text-decoration-underline clss-contrast-light">Política de Privacidad</button>
       </div>
     </div>
   </footer>
@@ -182,31 +211,42 @@
   <!-- Cookie banner -->
   <div class="sn-cookie" id="cookie-banner" style="display:none" role="alert">
     <div class="container d-flex flex-column flex-sm-row align-items-center gap-3 small" style="max-width:960px">
-      <p class="mb-0 flex-grow-1">🍪 Usamos cookies propias para mejorar tu experiencia. No compartimos tus datos con terceros.</p>
+      <p class="mb-0 flex-grow-1">🍪 Usamos cookies propias para mejorar tu experiencia. No compartimos tus datos con
+        terceros.</p>
       <div class="d-flex gap-2 flex-shrink-0">
-        <button onclick="cookieAction('accepted')" class="btn-sn-accent btn-sm py-1 px-3" style="font-size:0.875rem">Aceptar</button>
+        <button onclick="cookieAction('accepted')" class="btn-sn-accent btn-sm py-1 px-3"
+          style="font-size:0.875rem">Aceptar</button>
         <button onclick="cookieAction('rejected')" class="btn btn-sm btn-outline-light">Rechazar</button>
-        <button onclick="openPrivacyModal()" class="btn btn-sm btn-link text-white text-decoration-underline">Más información</button>
+        <button onclick="openPrivacyModal()" class="btn btn-sm btn-link text-white text-decoration-underline">Más
+          información</button>
       </div>
     </div>
   </div>
 
   <!-- Modal privacidad -->
-  <div class="sn-modal-overlay" id="privacy-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+  <div class="sn-modal-overlay" id="privacy-modal" style="display:none" role="dialog" aria-modal="true"
+    aria-labelledby="privacy-title">
     <div class="sn-modal" id="privacy-modal-content">
       <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 id="privacy-title" class="h5 fw-bold mb-0">Política de Privacidad</h2>
-        <button onclick="closePrivacyModal()" aria-label="Cerrar modal de privacidad" class="btn btn-sm p-1 fs-4 lh-1">&times;</button>
+        <button onclick="closePrivacyModal()" aria-label="Cerrar modal de privacidad"
+          class="btn btn-sm p-1 fs-4 lh-1">&times;</button>
       </div>
       <div class="small text-sn-muted">
         <h3 class="h6 fw-semibold mb-1" style="color:var(--sn-text)">¿Qué datos recolectamos?</h3>
-        <p>Este sitio web no recolecta datos personales reales. Es un sitio de demostración. En un entorno de producción, solo se recolectarían los datos proporcionados voluntariamente a través del formulario de contacto.</p>
+        <p>Este sitio web no recolecta datos personales reales. Es un sitio de demostración. En un entorno de
+          producción, solo se recolectarían los datos proporcionados voluntariamente a través del formulario de
+          contacto.</p>
         <h3 class="h6 fw-semibold mb-1" style="color:var(--sn-text)">¿Para qué usamos las cookies?</h3>
-        <p>Utilizamos únicamente cookies propias con fines funcionales, como recordar tu preferencia de aceptación de cookies. No utilizamos cookies de seguimiento, publicitarias ni de terceros.</p>
+        <p>Utilizamos únicamente cookies propias con fines funcionales, como recordar tu preferencia de aceptación de
+          cookies. No utilizamos cookies de seguimiento, publicitarias ni de terceros.</p>
         <h3 class="h6 fw-semibold mb-1" style="color:var(--sn-text)">Rastreadores y analytics</h3>
-        <p>SolarNova no utiliza ningún servicio de rastreo, análisis web o publicidad de terceros. Tu privacidad es nuestra prioridad.</p>
+        <p>SolarNova no utiliza ningún servicio de rastreo, análisis web o publicidad de terceros. Tu privacidad es
+          nuestra prioridad.</p>
         <h3 class="h6 fw-semibold mb-1" style="color:var(--sn-text)">Tus derechos</h3>
-        <p class="mb-0">Puedes solicitar la eliminación de tus datos en cualquier momento escribiéndonos a info@solarnova.cr. Cumplimos con la Ley de Protección de la Persona frente al Tratamiento de sus Datos Personales (Ley N° 8968 de Costa Rica).</p>
+        <p class="mb-0">Puedes solicitar la eliminación de tus datos en cualquier momento escribiéndonos a
+          info@solarnova.cr. Cumplimos con la Ley de Protección de la Persona frente al Tratamiento de sus Datos
+          Personales (Ley N° 8968 de Costa Rica).</p>
       </div>
       <button onclick="closePrivacyModal()" class="btn-sn-primary w-100 mt-3 py-2">Entendido</button>
     </div>
@@ -214,4 +254,5 @@
 
   <script src="js/nav.js"></script>
 </body>
+
 </html>

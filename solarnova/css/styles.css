@@ -15,7 +15,7 @@
   --sn-border: #E5E5E5;
   --sn-card: #FFFFFF;
   --sn-section-alt: #F3F3F3;
-  --sn-bg-contrast-black: #00000012;
+  --sn-bg-contrast-black: #00000008;
   --sn-bg-contrast-white: #ffffff0c;
   --radius: 6px;
 }
@@ -364,7 +364,7 @@ img {
 .sn-section { display: none; }
 .sn-section.active { display: block; }
 .clss-contrast-light{
-  background: var(--sn-bg-contrast-white);
+  color: var(--sn-text);
 }
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
